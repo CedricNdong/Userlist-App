@@ -1,3 +1,48 @@
+# React User Management Application
+
+## Project Overview
+
+This project involves developing a user management application using React and TypeScript. The application displays a list of users, allows for the deletion of selected users, and provides functionality to edit user details through a modal window. Bootstrap is utilized for styling, and the @faker-js/faker package generates sample user data.
+
+## Key Tasks and Features
+
+### Task 1: User List
+
+- **Create React Application**: Initiated the project by generating a new React application using the CLI with TypeScript.
+- **Install and Configure Bootstrap**: Added Bootstrap to the project to style the application and removed any default styling provided by the template.
+- **Install Faker Package**: Used the @faker-js/faker package to generate fake user data.
+- **Generate User List**: Created a list of 100 users with unique IDs, first names, and last names. The user list is displayed using the `<ListGroup>` component from Bootstrap.
+
+### Task 2: Delete Users
+
+- **Add Delete Button**: Included a "Löschen" button at the top of the page for user deletion.
+- **Add Checkboxes**: Added checkboxes to each list entry to select users for deletion.
+- **Implement Deletion Logic**: Developed the onClick event handler for the delete button to remove selected users from the list.
+- **Button Availability**: Ensured that the delete button is only enabled when at least one user is selected.
+
+### Task 3: Edit Users
+
+- **Add Edit Button**: Placed an "Bearbeiten" button at the top of the page for editing user details.
+- **Implement Modal Window**: Created a modal window to edit the details of a selected user.
+- **Button Availability**: Ensured that the edit button is enabled only when exactly one user is selected.
+- **Edit Logic**: Developed the onClick event handler for the edit button to open the modal and save changes made to the user's details.
+
+## Technologies & Keywords
+
+React, TypeScript, Bootstrap, Faker, User Management, ListGroup, Checkbox, Modal, HTTP, Testing, WebStorm, Postman
+
+## Project Implementation
+
+The project followed an iterative development approach, starting with basic routing and progressively adding more complex features such as user deletion, editing, and caching mechanisms. The use of NestJS ensured a modular and maintainable codebase.
+
+## Example Usage
+
+- **User List**: Display a list of 100 users with unique IDs, first names, and last names.
+- **User Deletion**: Select and delete multiple users from the list using checkboxes and a delete button.
+- **Edit User Details**: Edit the details of a single selected user through a modal window.
+
+
+
  sat# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
